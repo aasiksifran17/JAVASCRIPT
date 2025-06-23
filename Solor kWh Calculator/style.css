@@ -1,0 +1,35 @@
+.solar-card {
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: none;
+        }
+        .card-header-solar {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            border-radius: 15px 15px 0 0 !important;
+            padding: 20px;
+        }
+        .tab-btn {
+            border: 1px solid #28a745;
+            color: #28a745;
+            margin: 0 5px;
+            border-radius: 20px;
+            padding: 5px 20px;
+        }
+        .tab-btn.active {
+            background: #28a745;
+            color: white;
+        }
+        .result-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .input-group-text {
+            background: transparent !important;
+        }
+        input:focus {
+            box-shadow: none !important;
+            border-color: #28a745 !important;
+        }

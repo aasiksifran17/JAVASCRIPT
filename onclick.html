@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="add()">Click Me!</button>
+    <div class="mouse" onmouseover="mouseOver()" onmouseout="mouseout()" style="width:100px; height: 50px; background-color: lightblue;">
+        <h1>Mouse Over</h1>
+      
+    </div>
+    <script>
+
+      function add() {
+        let a=10
+        let b=20
+        let c=a+b
+        alert(c)
+      }
+
+      function mouseOver() {
+        document.querySelector('.mouse').style.backgroundColor = 'yellow';
+      }
+      function mouseout() {
+        document.querySelector('.mouse').style.backgroundColor = 'red';
+      }
+
+    </script>
+</body>
+</html>
